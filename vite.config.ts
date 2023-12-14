@@ -25,4 +25,5 @@ export default defineConfig({
     "process.env.COMMIT_HASH": JSON.stringify(gitData.hash),
     "process.env.COMMIT_DATE": JSON.stringify(gitData.date),
   },
+  base: '/airswap-voter-rewards/',
 });
